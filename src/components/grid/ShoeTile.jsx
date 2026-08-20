@@ -65,7 +65,7 @@ export function ShoeTile({
       if (imageRef.current)
         imageRef.current.material.uOpacity = 1;
     }
-  }, []);
+  }, [basePos.y, gridHeight, gridVisible]);
   const imageDims = useMemo(() => {
     const maxSize = CONFIG.itemSize * 0.9;
     if (!texture.image)

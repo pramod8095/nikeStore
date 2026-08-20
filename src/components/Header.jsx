@@ -32,6 +32,7 @@ export default function Header() {
           alignItems: "center",
           gap: "12px",
           pointerEvents: "auto",
+          color:"black"
         }}
       >
         {" "}
