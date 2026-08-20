@@ -28,6 +28,7 @@ import { GridCanvas } from "./GridCanvas";
 import { UnifiedControlBar } from "../GridUI";
 import Header from "../Header";
 import { TopologyBackground } from "../TopologyBackground";
+import SneakerFooter from "../SneakerFooter";
 
 import "../HoloCardMaterial";
 
@@ -664,6 +665,7 @@ export default function ShoeGrid() {
           handleFilterChange
         }
       />
+      <SneakerFooter />
     </div>
   );
 }

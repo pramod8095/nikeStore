@@ -106,7 +106,7 @@ export function UnifiedControlBar({
               borderRadius: "inherit",
               pointerEvents: "none",
               background:
-                "linear-gradient(180deg, rgba(255,255,255,0.22), transparent 45%)",
+                "linear-gradient(180deg, rgba(255,255,255,0.22), transparent 5%)",
             }}
           />
 
@@ -250,6 +250,7 @@ export function UnifiedControlBar({
                     display: "flex",
                     alignItems: "center",
                     gap: "2px",
+                    color:"white"
                   }}
                 >
                   {collections.map((name, index) => (
@@ -743,7 +744,7 @@ function TabButton({ children, isActive, onClick }) {
         border: "none",
         borderRadius: "22px",
         background: "transparent",
-        color: isActive ? "#182823" : "#72807B",
+        color: isActive ? "white" : "#72807B",
         fontSize: "12px",
         fontWeight: isActive ? "650" : "500",
         letterSpacing: "-0.01em",
